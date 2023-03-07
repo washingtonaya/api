@@ -14,7 +14,7 @@
                                         },
                                         type: "POST",
                                         dataType: "json",
-                                        url: "consulta.php",
+                                        url: "datos.php",
                                 }).done(function(data, textStatus, jqXHR) {
                                         if (data['success'] != false) {
                                                 $("#json_code").text(JSON.stringify(data, null, '\t'));
