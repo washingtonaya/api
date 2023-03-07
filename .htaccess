@@ -20,4 +20,4 @@ RewriteRule ^inicio$ /index.php [L]
 #   Producto
 #   Entrada: producto/NOMBRE_PRODUCTO/
 #   Salida: productos.php?id=NOMBRE_PRODUCTO
-RewriteRule ^persona/(.*)$  /persona.php?dni=$1 [QSA,L]
+RewriteRule ^dni/(.*)$  /datos.php?dni=$1 [QSA,L]
