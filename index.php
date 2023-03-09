@@ -1,5 +1,3 @@
-  GNU nano 4.8                                                                                                      index.php
-
                         $("button").click(function(e) {
 
                                 var $this = $(this);
@@ -53,4 +51,3 @@
         </script>
 </body>
 
-</html>
